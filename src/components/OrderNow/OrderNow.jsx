@@ -15,6 +15,7 @@ const OrderNow = (props)=>{
                 src={props.like ? heartFill : heart} 
                 alt="heart icon" 
                 onClick={props.handleLike}
+                
             />
         </div>
     )
